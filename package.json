@@ -1,0 +1,27 @@
+{
+  "name": "cognitotest",
+  "version": "1.0.0",
+  "description": "Cognito signup example",
+  "private": true,
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.44",
+    "@babel/preset-env": "^7.0.0-beta.44",
+    "@babel/preset-react": "^7.0.0-beta.44",
+    "@babel/preset-stage-0": "^7.0.0-beta.44",
+    "babel-loader": "^8.0.0-beta",
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.14"
+  },
+  "dependencies": {
+    "amazon-cognito-identity-js": "^2.0.3",
+    "express": "^4.16.3",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-router-dom": "^4.2.2"
+  }
+}
